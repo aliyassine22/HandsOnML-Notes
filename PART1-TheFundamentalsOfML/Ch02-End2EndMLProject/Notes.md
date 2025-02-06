@@ -104,7 +104,7 @@ These metrics represent values for each block group in california. Block groups 
 ### Finally! Framing the Problem
 * It is clearly a **supervised learning task** - given all the other params predict the label, median house price.
 * It is a **regression task** - prediction is a real value number.
-* It is **multivariate regression problem**.
+* It is **multivariate regression problem** - using multiple features to predict
 * There is no continuous flow of data coming in the system, there is no particular need to adjust to changing data rapidly, and the data is small to fit in the memory, so plain **batch learning** should do just fine.
 
 ***

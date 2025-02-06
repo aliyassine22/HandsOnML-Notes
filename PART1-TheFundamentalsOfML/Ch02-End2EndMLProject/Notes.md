@@ -88,9 +88,10 @@ These metrics represent values for each block group in california. Block groups 
   * Pulls a large amount of data
   * Process it
   * Spits out the result in  another data store for another component
-* The interface between components is simple the data store. So different teams can focus on different components.
+* The interface between components is called the data store. 
+* Different teams can focus on different components.
 * The architecture is robust - if a component fails, the component downstream can keep using the previous output of the failed component.
-* Thus, without proper monitoring a broken component can go unnoticed. The data gets stals and the overall performance drops.
+* Thus, without proper monitoring a broken component can go unnoticed. The data stales and the overall performance drops.
 ***
 
 ### Second Question
